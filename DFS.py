@@ -23,7 +23,7 @@ def dfs(meu_grafo):
     for vertice in meu_grafo:
         if cor[vertice] == 'BRANCO':
             dfs_visit(vertice, meu_grafo, cor, pi, tempo_d, tempo_f, tempo)
-    return tempo_d, tempo_f, pi
+    return pi, tempo_d, tempo_f
 
 
 
